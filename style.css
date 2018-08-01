@@ -1,0 +1,41 @@
+#mondayImage {
+    width: 200px;
+    height: 200px;
+}
+
+#tuesdayImage {
+    width: 200px;
+    height: 200px;
+}
+
+#wedImage {
+    width: 200px;
+    height: 200px;
+}
+
+#thursImage {
+    width: 200px;
+    height: 200px;
+}
+
+#friImage {
+    width: 200px;
+    height: 200px;
+}
+
+div {
+    border: solid 2px black;
+    margin: 8px;
+    text-align: center;
+    width: 25%;
+}
+
+body {
+    display: flex;
+    align-content: space-around;
+    text-align: center;
+}
+
+#title {
+    position: fixed;
+}z
