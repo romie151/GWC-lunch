@@ -1,3 +1,25 @@
+body {
+    align-content: space-around;
+    text-align: center;
+    background-color: #E5DADA;
+}
+
+
+#headerContainer {
+    /* border: 2px solid black; */
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    /* background-color: white; */
+}
+
+#foodDiv {
+    position: relative;
+    display: flex;
+    width: 100%;
+    
+}
 #mondayImage {
     width: 200px;
     height: 200px;
@@ -23,19 +45,23 @@
     height: 200px;
 }
 
-div {
-    border: solid 2px black;
-    margin: 8px;
-    text-align: center;
-    width: 25%;
+#mondayContainer, #tuesdayContainer, #wedContainer, #thursContainer, #fridayContainer {
+    /* border: 2px solid black; */
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    background-color: white;
 }
 
-body {
-    display: flex;
-    align-content: space-around;
-    text-align: center;
-}
+/* #monday {
+    font-size: 2em;
+    margin: 0;
+} */
 
 #title {
-    position: fixed;
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
 }
